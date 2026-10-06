@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Permitir peticiones de desarrollo desde tu red local
+  allowedDevOrigins: ['192.168.0.8', '192.168.0.*'],
 };
 
 export default nextConfig;
